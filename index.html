@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Уютная кофейня в центре Алматы. Свежеобжаренный кофе, авторские напитки, крафтовая выпечка и бронирование столиков.">
+    <title>Кофейня «Алматы Кофе» | Атмосфера и авторский кофе</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Алматы Кофе</a>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#menu">Меню</a></li>
+                    <li><a href="#features">Атмосфера</a></li>
+                    <li><a href="#contacts">Бронирование</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1>Ароматный кофе в самом сердце Алматы</h1>
+                <p>Место для встреч, работы и душевных разговоров с видом на горы.</p>
+                <a href="#contacts" class="btn">Забронировать столик</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>О нашей кофейне</h2>
+                <article>
+                    <h3>Наша философия</h3>
+                    <p>Мы выбираем лучшие кофейные зерна 100% арабики и обжариваем их локально в Алматы. Каждая чашка — это баланс вкуса, заботы и мастерства бариста.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <div class="container">
+                <h2>Наше меню</h2>
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&q=80" alt="Чашка классического эспрессо" width="300" height="200">
+                        <h3>Эспрессо / Флэт Уайт</h3>
+                        <p>Насыщенный кофе с плотной пенкой и ореховыми нотами.</p>
+                    </article>
+                    <article class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=400&q=80" alt="Авторский раф с горным чабрецом" width="300" height="200">
+                        <h3>Алматинский Раф</h3>
+                        <p>Сливочный раф с добавлением локального горного чабреца и меда.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2>Преимущества и атмосфера</h2>
+                <div class="features-list">
+                    <article>
+                        <h3>Уютный интерьер</h3>
+                        <p>Мягкое освещение, много зелени и удобные кресла для отдыха.</p>
+                    </article>
+                    <article>
+                        <h3>Рабочая зона</h3>
+                        <p>Быстрый Wi-Fi и розетки у каждого столика для продуктивного дня.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts-section">
+            <div class="container">
+                <h2>Бронирование столика</h2>
+                <form action="#" method="post" class="booking-form">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" name="name" required placeholder="Кадыр">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="example@mail.kz">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Пожелания к брони (дата, время, кол-во гостей):</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Столик на двоих на пятницу, 19:00"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Забронировать</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Кофейня «Алматы Кофе». Все права защищены.</p>
+            <p>г. Алматы, пр. Абая, 150</p>
+        </div>
+    </footer>
+
+</body>
+</html>
